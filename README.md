@@ -1,6 +1,7 @@
-# Header test
+## About Me
+I'm a math contest enthusiast, compeitive programmer, and avid learner of anything that piques my curiousity. Currently, my biggest goal is to qualify for the International Math Olympiad.
 
-## Welcome to GitHub Pages
+## Everything below is default stuff from Github Pages
 
 You can use the [editor on GitHub](https://github.com/Plasma-Vortex/Plasma-Vortex.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
