@@ -5,3 +5,5 @@ This is my attempt at making a personal website. The site is currently under dev
 - Link those pages from the home page
 - Add some cool animations
 - Add a resume
+- Make a more detailed "About Me" section
+- Add contact info?
