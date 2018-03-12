@@ -2,8 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
 @import url('https://rsms.me/inter/inter-ui.css');
 
-p {
+body {
 	font-family: 'Inter UI', sans-serif;
 }
