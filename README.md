@@ -7,3 +7,4 @@ This is my attempt at making a personal website. The site is currently under dev
 - Add a resume
 - Make a more detailed "About Me" section
 - Add contact info?
+- Add an 'Impossible List' to About Me section
