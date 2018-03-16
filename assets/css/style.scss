@@ -1,15 +1,6 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-@import url('https://rsms.me/inter/inter-ui.css');
-
-* {
-	font-family: 'Inter UI', sans-serif;
-}
-
-
 <style>
 	.flex-container {
 		display: flex;
@@ -26,3 +17,14 @@
 		height: 100%
 	}
 </style>
+
+@import "{{ site.theme }}";
+
+@import url('https://rsms.me/inter/inter-ui.css');
+
+* {
+	font-family: 'Inter UI', sans-serif;
+}
+
+
+
