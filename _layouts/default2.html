@@ -8,6 +8,25 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		
+		/* custom CSS */
+		<style>
+			.flex-container {
+				display: flex;
+				background-color: DodgerBlue;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+			}
+			.flex-container > div {
+				background-color: #f1f1f1;
+				margin: 10px;
+				padding: 20px;
+				font-size: 20px;
+				height: 100%
+			}
+			</style>
+		
   </head>
   <body>
     <section class="page-header">
@@ -23,6 +42,12 @@
     </section>
 
     <section class="main-content">
+			<div class="flex-container">
+				<div> <a href="http://howardhalim.com/">Home</a> </div>
+				<div> <a href="http://howardhalim.com/about-me/">About Me</a> </div>
+				<div> <a href="http://howardhalim.com/projects/">Projects</a> </div>  
+			</div>
+      
       {{ content }}
 
       <footer class="site-footer">
