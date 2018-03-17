@@ -12,8 +12,8 @@
 .page-header {
   color: white;
   text-align: center;
-  /* background-color: page.header-bg-color-1; */
-  background-image: linear-gradient(to right, page.header-bg-color-1, page.header-bg-color-2);
+	background-color: {{ page.header-bg-color-1 }}; 
+	background-image: linear-gradient(to right, {{ page.header-bg-color-1 }}, {{ page.header-bg-color-2 }} );
 
   @include large {
     padding: 5rem 6rem;
