@@ -2,6 +2,7 @@ This is my attempt at making a personal website. The site is currently under dev
 
 ## To Do:
 - Fix CSS of navigation bar
+- Make gradients color-coded to each page
 - Add some cool animations
 - Add a resume
 - Make a more detailed "About Me" section
