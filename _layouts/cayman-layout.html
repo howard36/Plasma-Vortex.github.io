@@ -8,6 +8,28 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	  
+		<!-- Custom page css -->
+		<style>
+			.page-header {
+				color: white;
+				text-align: center;
+				background-color: {{ page.header-bg-color-1 }}; 
+				background-image: linear-gradient(to right, {{ page.header-bg-color-1 }}, {{ page.header-bg-color-2 }} );
+
+				@include large {
+					padding: 5rem 6rem;
+				}
+
+				@include medium {
+					padding: 3rem 4rem;
+				}
+
+				@include small {
+					padding: 2rem 1rem;
+				}
+			}
+		</style>
   </head>
   <body>
     <section class="page-header">
