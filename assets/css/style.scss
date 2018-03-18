@@ -25,25 +25,26 @@
 }
 
 .button {
-		background-color: #f7b733; /* overridden with custom page color in layouts file */
-    border: 3px solid #f7b733; /* overridden with custom page color in layouts file */
-    border-radius: 50px;
-    color: white;
-    padding: 16px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* for Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
+	background-color: #f7b733; /* overridden with custom page color in layouts file */
+	border: 3px solid #f7b733; /* overridden with custom page color in layouts file */
+	border-radius: 50px;
+	color: white;
+	padding: 16px 40px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* for Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
 }
 
 .button:hover {
-    background-color: white;
-    color: #f7b733; /* overridden with custom page color in layouts file */
-    text-decoration: none;
+	background-color: white;
+	color: #f7b733; /* overridden with custom page color in layouts file */
+	text-decoration: none;
 }
 
 /* Impossible List CSS */
@@ -53,17 +54,19 @@
     table-layout: fixed;
 }
 
-#impossiblelist td, th {
+#impossiblelist td {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#impossiblelist tr:hover {background-color: #ddd;}
+#impossiblelist tr:hover {
+	background-color: #ddd;
+}
 
 #impossiblelist th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: #f8a52f;
     color: white;
 }
