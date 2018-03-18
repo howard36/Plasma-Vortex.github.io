@@ -45,3 +45,25 @@
     color: #f7b733; /* overridden with custom page color in layouts file */
     text-decoration: none;
 }
+
+/* Impossible List CSS */
+#impossiblelist {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#impossiblelist td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#impossiblelist tr:hover {background-color: #ddd;}
+
+#impossiblelist th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f8a52f;
+    color: white;
+}
