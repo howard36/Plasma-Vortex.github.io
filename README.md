@@ -6,3 +6,4 @@ This is my attempt at making a personal website. The site is currently under dev
 - Add a resume
 - Make a math section
 - Add contact info?
+- Add SSL
