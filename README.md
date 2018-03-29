@@ -4,6 +4,5 @@ This is my attempt at making a personal website. The site is currently under dev
 - Make the site mobile friendly
 - Add some cool animations
 - Add a resume
-- Make a math section
-- Add contact info?
 - Add SSL
+- Upload math handouts to math section
