@@ -110,7 +110,7 @@ img {
 }
 
 /* One column on small screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
 	.column {
 		flex: 100%;
 		max-width: 100%;
