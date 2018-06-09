@@ -7,4 +7,5 @@ This is my attempt at making a personal website. The site is currently under dev
 - Make better math handouts + add recommendations
 - Math advice?
 - Blog?
+- Math tutoring section?
 - Update projects and about me
