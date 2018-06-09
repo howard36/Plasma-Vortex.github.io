@@ -95,13 +95,13 @@ img {
 .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
+	padding: 4px 4px;
 }
 
 .column {
 	flex: 33.3%;
 	max-width: 33.3%;
-	padding: 0 4px;
+	padding: 4px 4px;
 }
 
 .column img {
@@ -110,7 +110,7 @@ img {
 }
 
 /* One column on small screens */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 	.column {
 		flex: 100%;
 		max-width: 100%;
