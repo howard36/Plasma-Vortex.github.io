@@ -8,3 +8,4 @@ This is my attempt at making a personal website. The site is currently under dev
 - Math advice?
 - Blog?
 - Math tutoring section?
+- Add pictures
