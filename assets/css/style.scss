@@ -86,8 +86,8 @@ img {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: center;
-    background-color: {{ page.accent }};
-    border: 1px solid {{ page.accent }};
+    background-color: "{{ page.accent }}";
+    border: 1px solid "{{ page.accent }}";
     color: white;
 }
 
