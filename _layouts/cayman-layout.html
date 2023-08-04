@@ -1,102 +1,200 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"> 
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<!-- Custom page css -->
-		<style>
-			.page-header {
-				background-color: {{ page.header-bg-color-1 }}; 
-				background-image: linear-gradient(to right, {{ page.header-bg-color-1 }}, {{ page.header-bg-color-2 }} );
-			}
-			.button {
-				background-color: {{ page.accent }};
-				border-color: {{ page.accent }};
-			}
-			.button:hover {
-				color: {{ page.accent }};
-			}
-			.main-content h1  {
-				color: {{ page.accent }};
-			}
-			.main-content h2  {
-				color: {{ page.accent }};
-			}
-			.main-content h3  {
-				color: {{ page.accent }};
-			}
-			.main-content h4  {
-				color: {{ page.accent }};
-			}
-			.main-content h5  {
-				color: {{ page.accent }};
-			}
-			.main-content h6  {
-				color: {{ page.accent }};
-			}
-			#impossiblelist th {
-			    background-color: {{ page.accent }};
-			    border-color: {{ page.accent }};
-			}
-		</style>
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-    </section>
+<head>
+	<meta charset="UTF-8">
 
-    <section class="main-content">
-			<div class="navbar">
-				<div> <a href="/" class="button">Home</a> </div>
-				<div> <a href="/about-me/" class="button">About Me</a> </div>
-				<div> <a href="/projects/" class="button">Projects</a> </div>  
-				<div> <a href="/math/" class="button">Math</a> </div>  
+	{% seo %}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="theme-color" content="#157878">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Custom page css -->
+	<style>
+		.page-header {
+			background-color: {
+					{
+					page.header-bg-color-1
+				}
+			}
+
+			;
+
+			background-image: linear-gradient(to right, {
+					{
+					page.header-bg-color-1
+				}
+			}
+
+			, {
+				{
+				page.header-bg-color-2
+			}
+		});
+		}
+
+		.button {
+			background-color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+
+			border-color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.button:hover {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h1 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h2 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h3 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h4 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h5 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		.main-content h6 {
+			color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+
+		#impossiblelist th {
+			background-color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+
+			border-color: {
+					{
+					page.accent
+				}
+			}
+
+			;
+		}
+	</style>
+</head>
+
+<body>
+	<section class="page-header">
+		<h1 class="project-name">{{ page.title | default: site.github.repository_name }}</h1>
+		<h2 class="project-tagline">{{ page.description | default: site.github.project_tagline }}</h2>
+		{% if site.github.is_project_page %}
+		<a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+		{% endif %}
+		{% if site.show_downloads %}
+		<a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+		<a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+		{% endif %}
+	</section>
+
+	<section class="main-content">
+		<div class="navbar">
+			<div> <a href="/" class="button">Home</a> </div>
+			<div> <a href="/about-me/" class="button">About Me</a> </div>
+			<div> <a href="/projects/" class="button">Projects</a> </div>
+			<div> <a href="/math/" class="button">Math</a> </div>
+		</div>
+
+		{{ content }}
+
+		<footer class="site-footer">
+			{% if site.github.is_project_page %}
+			<span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a>
+				is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+			{% endif %}
+
+			<div class="links">
+				<a href="https://artofproblemsolving.com/community/user/255202" title="AoPS">
+					<img src="/aops-icon.jpg" alt="AoPS">
+				</a>
+
+				<a href="https://dmoj.ca/user/PlasmaVortex" title="DMOJ">
+					<img src="/dmoj-icon.jpg" alt="DMOJ">
+				</a>
+
+				<a href="https://github.com/howard36" title="GitHub" style="color: black">
+					<i class="fa fa-github" style="font-size: 30px"></i>
+				</a>
+
+				<a href="mailto:howardhalim@gmail.com" title="Email">
+					<i class="fa fa-envelope" style="font-size: 30px"></i>
+				</a>
 			</div>
-      
-      {{ content }}
+		</footer>
+	</section>
 
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
-        {% endif %}
-	      
-	<div class="links">
-		<a href="https://artofproblemsolving.com/community/user/255202" title="AoPS">
-			<img src="/aops-icon.jpg" alt="AoPS">
-		</a>
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
 
-		<a href="https://dmoj.ca/user/PlasmaVortex" title="DMOJ">
-			<img src="/dmoj-icon.jpg" alt="DMOJ">
-		</a>
+</body>
 
-		<a href="https://github.com/Plasma-Vortex" title="GitHub" style="color: black">
-			<i class="fa fa-github" style="font-size: 30px"></i>
-		</a>
-
-		<a href="mailto:howardhalim@gmail.com" title="Email">
-			<i class="fa fa-envelope" style="font-size: 30px"></i>
-		</a>
-	</div>
-      </footer>
-    </section>
-
-    {% if site.google_analytics and jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
-
-  </body>
 </html>
